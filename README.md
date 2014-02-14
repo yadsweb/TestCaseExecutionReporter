@@ -1,10 +1,10 @@
 TestCaseExecutionReporter
 ==================
 
-This tool use simple file named "Environment.properties" which contain all relevant properties to connect to zephyr for jira api and send 
-results from automated test execution with substeps. 
-In Jira it actualy first create new test cycle then add tests to test cycle and finally update the status of each test to relevant status
-taken from substeps report file.
+This tool use simple file named "Environment.properties" which contain all relevant properties to connect to zephyr for jira api and send results from automated test execution with substeps.
+
+In Jira it actualy first create new test cycle then add tests to test cycle and finally update the status of each test to relevant status taken from substeps report file.
+
 The file or file path is send as parameter to the main method.
 
 
